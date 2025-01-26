@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.page-footer {
+
+    background-color: lightskyblue;
+}
+
+.error {
+	color: red;
+}
+h1 {
+  color: lightskyblue;
+  font-family: 'courier new';
+  font-size: 300%;
+  border: 10px solid orange;
+  border-left: 0cap;
+  border-top: 0cap;
+  border-right: 0cap;
+}
+p{
+  color: darkgreen;
+  font-family: 'courier new';
+  font-size: 300%;
+  border: 10px solid yellowgreen;
+  border-left: 0cap;
+  border-top: 0cap;
+  border-right: 0cap;
+}
+.center {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  color: red;
+  font-family: 'courier new';
+  list-style-type: none;
+}
+.center-text{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;;
+  list-style-type: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'courier new';
+  list-style-type: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2a272789;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  list-style-type: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  list-style-type: none;
+}
+div.relative {
+  position: relative;
+  left: 200px;
+  border: 3px solid #73AD21;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
