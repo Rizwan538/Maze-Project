@@ -109,6 +109,7 @@ function main() {
                     maze.movePlayer(-1, 0);
                     break;
             }
+            e.preventDefault();
             maze.draw();
         });
     }
